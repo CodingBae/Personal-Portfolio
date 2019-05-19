@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#all-projects-content #projects-navbar {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+}
+#all-projects-content #homepage-container {
+  margin-top: 1rem;
+}
+#all-projects-content #stalk-me {
+  display: flex;
+  justify-content: flex-end;
+}
+#all-projects-content #stalk-me a,
+h3,
+span {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: white;
+}
+
+#all-projects-content .line-through {
+  text-decoration: line-through;
+}
+
+/*===============================================
+        STYLES FOR PROJECT BLOCK START HERE
+=================================================*/
+#all-projects-content .project-container {
+  height: 90vh;
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+}
+#all-projects-content #first-project {
+  display: flex;
+  justify-content: space-between;
+}
+#all-projects-content .project-image {
+  margin-top: 10%;
+  height: 50vh;
+  width: 40vw;
+  background-image: url("../images/project-1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#all-projects-content .project-nr-info {
+  margin-top: 12%;
+  margin-left: -12%;
+  font-size: 2rem;
+}
+#all-projects-content .project-nr-info h2 {
+  font-size: 3rem;
+}
+
+#all-projects-content .project-nr-info a {
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+  background: rgb(230, 115, 0);
+  border: solid 0.2rem rgb(230, 115, 0);
+  text-decoration: none;
+  color: white;
+}
+
+#all-projects-content .project-nr-info .second-line-title {
+  padding-bottom: 2rem;
+}
+
+/*===============================================
+        STYLES FOR PROJECTS MAIN TITLE START HERE
+=================================================*/
+
+#all-projects-content #first-project #first-project-title {
+  margin-top: 3%;
+}
+
+#all-projects-content #first-project #first-project-title p {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+/*==========================================================
+        STYLES FOR OTHER BLOCKS OF PROJECTS START HERE
+============================================================*/
+
+#all-projects-content .project-container .project-center .project-image {
+  display: flex;
+  justify-content: center;
+}
+
+#all-projects-content .project-center {
+  display: flex;
+  justify-content: center;
+}
+#all-projects-content .project-side {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*==========================================
+     STYLES FOR particlesJS
+ =============================================*/
+
+#all-projects-content {
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  background: #050505d8;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+/*==================================================
+            HOVER EFFECTS START HERE 
+====================================================*/
+#all-projects-content a:hover {
+  text-decoration: line-through;
+}
+
+#all-projects-content a i:hover {
+  color: grey;
+}
+
+/*===================================================
+          MEDIA QUERIES
+=====================================================*/
+
+@media only screen and (max-width: 1250px) {
+  #all-projects-content #first-project #first-project-title p {
+    font-size: 3rem;
+  }
+
+  #all-projects-content .project-container h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #all-projects-content .project-container {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+  }
+}

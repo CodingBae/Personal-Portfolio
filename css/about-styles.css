@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#all-about-me-info-content #about-me-navbar {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+}
+#all-about-me-info-content #homepage-container {
+  margin-top: 1rem;
+}
+#all-about-me-info-content #stalk-me {
+  display: flex;
+  justify-content: flex-end;
+}
+#all-about-me-info-content #stalk-me a,
+h3,
+span {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: white;
+}
+
+#all-about-me-info-content .line-through {
+  text-decoration: line-through;
+}
+/*==========================================
+    STYLES FOR particlesJS
+=============================================*/
+
+#all-about-me-info-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  background: rgba(22, 22, 22, 0.897);
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+/*==========================================
+    STYLES FOR particlesJS ENd Here
+=============================================*/
+
+#about-me-container {
+  width: 60%;
+  margin: 10% auto;
+  display: flex;
+  justify-content: center;
+}
+
+#about-me-image-container {
+  margin-right: 3rem;
+  width: 50vw;
+  height: 50vh;
+  background-image: url("../images/about-me-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
+#about-me-info-container {
+  margin-top: -3rem;
+  width: 130%;
+}
+#about-me-info-container h2 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+#about-me-info-container p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+#about-me-info-container #about-me-titles {
+  margin: 1rem 0;
+}
+
+#about-me-info-container #about-me-skills {
+  margin: 1rem 0;
+}

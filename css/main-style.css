@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #252525;
+  color: white;
+  font-family: sans-serif;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/*================================
+    STYLES FOR HEADER START HERE
+===================================*/
+#main-nav {
+  padding-top: 1rem;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+#main-nav-name {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#main-nav-info a {
+  margin-left: 2.5rem;
+}
+
+/*================================
+    STYLES FOR MAIN START HERE
+===================================*/
+#main-content {
+  width: 80%;
+  margin: auto;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+}
+#hero-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#hero-text h1 {
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+#hero-text p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  margin-right: 6rem;
+}
+#main-content-me {
+  margin-top: 2rem;
+  font-weight: 300;
+  color: rgb(200, 200, 200);
+}
+.hero-text-linethrough {
+  text-decoration: line-through;
+}
+
+/*================================
+    STYLES FOR FOOTER START HERE
+===================================*/
+#main-footer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-links a {
+  margin-right: 2.5rem;
+}
+
+#footer-links p {
+  color: rgb(120, 120, 120);
+}
+
+#all-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+/*==========================================
+     STYLES FOR particlesJS
+ =============================================*/
+
+#particles-js {
+  width: 100%;
+  height: 99.6%;
+}
+
+/*==================================================
+            HOVER EFFECTS START HERE 
+====================================================*/
+#main-header a:hover {
+  text-decoration: line-through;
+}
+
+#main-footer a:hover {
+  text-decoration: line-through;
+}
