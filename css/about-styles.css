@@ -8,9 +8,15 @@ body {
   width: 100vw;
   height: 100vh;
 }
+li {
+  text-decoration: none;
+}
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(187, 81, 32);
+  background-color: rgba(255, 255, 255, 0.603);
+  border-radius: 0.4rem;
+  padding: 0.1rem 0.3rem;
 }
 #all-about-me-info-content #about-me-navbar {
   display: flex;
@@ -30,7 +36,7 @@ h3,
 span {
   margin-top: 1rem;
   margin-left: 1rem;
-  color: white;
+  color: rgb(119, 76, 51);
 }
 
 #all-about-me-info-content .line-through {
@@ -101,4 +107,25 @@ span {
 
 #about-me-info-container #about-me-skills {
   margin: 1rem 0;
+}
+
+#about-me-info-container #my-tech-stack {
+  text-align: center;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1rem;
+  flex-wrap: wrap;
+}
+#about-me-info-container #my-tech-stack li {
+  width: 40%;
+  margin: 1rem;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  background-color: rgba(87, 124, 156, 0.527);
+}
+
+#about-me-info-container #my-tech-stack li:hover {
+  text-decoration: line-through;
+  cursor: pointer;
 }
